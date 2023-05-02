@@ -23,6 +23,7 @@ Obs: Para logar no sistema use [email: teste@gmail.com, senha: secret]
 
 * **React**
 * **Node(Backend)**
+* **Mongo(Banco de dados)**
 
 ## ✒️ Autor
 
