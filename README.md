@@ -1,6 +1,7 @@
 # SysRepo - Gerenciador de Repositórios
 
-Projeto frontend com validação de autenticação usando (JWT) e React (ContextAPI) consumindo uma API que construí usando Node, Express e MongoDB, feito com base na aula do canal no youtube **Dev Samurai**, com o intuito de praticar os conhecimentos mínimos exigidos de um Dev Júnior em um teste técnico de determinada empresa.
+Projeto frontend com validação de autenticação usando (JWT) e React (ContextAPI) consumindo uma API que construí usando Node, Express e MongoDB, feito com base na aula do canal no youtube **Dev Samurai**, com o intuito de praticar os conhecimentos mínimos exigidos de um Dev Júnior em um teste técnico de determinada empresa. Além disso 
+foi implementado a regra de negócio para cada user do sistema ter acesso apenas as seus próprios repositórios salvos.
 
 ## 👀 Ver deploy! 👉 <a href="https://gerenciador-github-frontend-react.vercel.app/">SysRepo</a>
 Obs: Para logar no sistema use [email: teste@gmail.com, senha: secret]
