@@ -22,7 +22,7 @@ const Repositories = ({ repositories, onDeleteRepo, onNewRepo }) => {
 
             <div className="new">
                 <label htmlFor="new-repo">Novo Repo:</label>
-                <input value={newRepo} type="url" name="new-repo" id="new-repo" onChange={(evt) => setNewRepo(evt.target.value)} />
+                <input placeholder='ex:https://github.com/facebook/react' value={newRepo} type="url" name="new-repo" id="new-repo" onChange={(evt) => setNewRepo(evt.target.value)} />
                 <button onClick={() => onNewRepo(newRepo)}>Adicionar</button>
             </div>
         </div>

@@ -55,8 +55,14 @@ const MainPage = () => {
 
   const handleNewRepo = async (url) => {
     try {
-      await createRepository(user?.id, url)
-      await loadData()
+      //Verificando se esse repositório já existe
+      const existsRepository = repositories.find((repository) => repository.url === url)
+      if(!existsRepository){
+        await createRepository(user?.id, url)
+        await loadData()
+      } else {
+        alert('Este repositório já foi cadastrado!')
+      }
     } catch (error) {
       console.error(error)
       setLoadingError(true)

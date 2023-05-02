@@ -5,8 +5,6 @@ export const api = axios.create({
     baseURL: process.env.REACT_APP_API_URL_BASE
 })
 
-console.log(process.env.REACT_APP_API_URL_BASE)
-
 //Session
 export const createSession = async (email, password) => {
     return api.post('/sessions', {email, password})
